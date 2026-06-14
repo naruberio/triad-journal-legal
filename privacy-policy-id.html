@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kebijakan Privasi — Tiga Kata Hari Ini</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #222; }
+    h1, h2 { font-weight: 600; }
+    h2 { margin-top: 2rem; border-bottom: 1px solid #eee; padding-bottom: 0.3rem; }
+    a { color: #0366d6; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    table { border-collapse: collapse; margin: 1rem 0; width: 100%; }
+    th, td { border: 1px solid #ddd; padding: 0.5rem; text-align: left; vertical-align: top; }
+    th { background: #f6f8fa; }
+    nav { font-size: 0.9rem; margin-bottom: 1rem; }
+  </style>
+</head>
+<body>
+  <nav><a href="./">← Beranda</a></nav>
+  <h1>Kebijakan Privasi — Tiga Kata Hari Ini</h1>
+  <p><strong>Tanggal berlaku: 2026-05-21</strong></p>
+  <p>Kebijakan Privasi ini menjelaskan bagaimana "Tiga Kata Hari Ini" ("Aplikasi") menangani informasi tentang Anda saat Anda menggunakannya. Aplikasi ini diterbitkan oleh <strong>naruberio</strong> ("kami").</p>
+
+  <h2>1. Ringkasan</h2>
+  <p><strong>Kami tidak mengumpulkan data pribadi apa pun.</strong> Semua yang Anda tulis atau atur di Aplikasi tetap berada di perangkat Anda. Kami tidak menjalankan server, analitik, iklan, atau SDK pelacakan pihak ketiga.</p>
+
+  <h2>2. Informasi yang Tidak Kami Kumpulkan</h2>
+  <p>Kami <strong>tidak</strong> mengumpulkan, mengirim, menyimpan, atau membagikan hal-hal berikut:</p>
+  <ul>
+    <li>Informasi akun (email, nama, profil)</li>
+    <li>Kontak, lokasi, kalender, foto, mikrofon, kamera</li>
+    <li>Entri buku harian, kata, tanggal, rangkaian hari, atau konten buatan pengguna apa pun</li>
+    <li>Pengidentifikasi perangkat yang digunakan untuk iklan atau pelacakan</li>
+    <li>Laporan kerusakan atau peristiwa analitik yang dikirim ke pihak ketiga</li>
+  </ul>
+
+  <h2>3. Informasi yang Disimpan Secara Lokal di Perangkat Anda</h2>
+  <p>Aplikasi menyimpan data berikut <strong>hanya di perangkat Anda</strong> (menggunakan penyimpanan lokal iOS seperti SQLite dan UserDefaults). Data ini tidak pernah meninggalkan perangkat Anda kecuali jika Anda sendiri secara eksplisit mengekspor atau membagikannya.</p>
+  <table>
+    <thead><tr><th>Data</th><th>Tujuan</th><th>Penyimpanan</th></tr></thead>
+    <tbody>
+      <tr><td>Entri buku harian tiga kata dan tanggalnya</td><td>Fungsi inti</td><td>Basis data SQLite di perangkat</td></tr>
+      <tr><td>Preferensi aplikasi (tema, bahasa, pengaturan kunci)</td><td>Konfigurasi aplikasi</td><td>UserDefaults di perangkat</td></tr>
+      <tr><td>Penghitung rangkaian hari dan pencapaian</td><td>Fungsi aplikasi</td><td>SQLite di perangkat</td></tr>
+      <tr><td>Status pembelian (lencana Pendukung)</td><td>Mencerminkan pembelian dalam aplikasi secara lokal</td><td>UserDefaults di perangkat</td></tr>
+    </tbody>
+  </table>
+  <p>Saat Anda menghapus instalasi Aplikasi, semua data ini dihapus oleh iOS.</p>
+
+  <h2>4. Apple App Store dan Pembelian Dalam Aplikasi</h2>
+  <p>Pembelian dalam aplikasi (pembelian "Pendukung" yang opsional) diproses oleh <strong>Apple Inc.</strong> melalui App Store. Kami tidak menerima nama, email, kartu pembayaran, atau informasi pribadi lainnya dari Apple — kami hanya menerima tanda terima bertanda tangan yang menunjukkan bahwa pembelian telah terjadi.</p>
+  <p>Penanganan data pembelian Anda oleh Apple diatur oleh <a href="https://www.apple.com/legal/privacy/">Kebijakan Privasi Apple</a>.</p>
+
+  <h2>5. Privasi Anak-Anak</h2>
+  <p>Aplikasi ini berperingkat 4+ dan cocok untuk semua usia. Karena kami tidak mengumpulkan data pribadi, Aplikasi tidak dengan sengaja mengumpulkan informasi dari anak di bawah usia 13 tahun atau ambang usia lainnya di yurisdiksi mana pun.</p>
+
+  <h2>6. Izin</h2>
+  <p>Aplikasi dapat meminta izin iOS berikut hanya jika Anda mengaktifkan fitur yang bersangkutan:</p>
+  <table>
+    <thead><tr><th>Izin</th><th>Alasan diminta</th></tr></thead>
+    <tbody>
+      <tr><td>Face ID / Touch ID (<code>NSFaceIDUsageDescription</code>)</td><td>Kunci aplikasi opsional — hanya digunakan secara lokal di perangkat Anda</td></tr>
+    </tbody>
+  </table>
+  <p>Izin pelacakan (App Tracking Transparency) <strong>tidak pernah</strong> diminta karena Aplikasi tidak melacak pengguna.</p>
+
+  <h2>7. Manifes Privasi</h2>
+  <p>Aplikasi disertai dengan Apple Privacy Manifest yang menyatakan:</p>
+  <ul>
+    <li><strong>Tracking</strong>: Tidak ada</li>
+    <li><strong>Tracking domains</strong>: Tidak ada</li>
+    <li><strong>Collected data types</strong>: Tidak ada</li>
+    <li><strong>Required reason APIs used</strong>: <code>UserDefaults (CA92.1)</code> dan <code>FileTimestamp (C617.1)</code> — keduanya digunakan semata-mata untuk fungsi aplikasi di perangkat</li>
+  </ul>
+
+  <h2>8. Hak Anda</h2>
+  <p>Karena kami tidak mengumpulkan data pribadi, tidak ada apa pun untuk diakses, dikoreksi, dipindahkan, atau dihapus di pihak kami. Untuk menghapus semua data yang disimpan oleh Aplikasi, hapus instalasinya dari perangkat Anda.</p>
+  <p>Bagi pengguna di Uni Eropa (GDPR), Inggris, California (CCPA/CPRA), Brasil (LGPD), atau rezim privasi lainnya: Aplikasi tidak bertindak sebagai pengendali atau pemroses data pribadi Anda, karena kami tidak mengumpulkan data apa pun.</p>
+
+  <h2>9. Penggunaan Internasional</h2>
+  <p>Aplikasi tersedia secara global. Karena tidak ada data yang dikirim keluar dari perangkat Anda, tidak terjadi transfer data lintas batas.</p>
+
+  <h2>10. Perubahan pada Kebijakan Ini</h2>
+  <p>Kami dapat memperbarui Kebijakan Privasi ini. Perubahan material akan dicerminkan dengan memperbarui "Tanggal berlaku" di atas dan dengan menerbitkan kebijakan yang direvisi di URL yang tercantum dalam bagian 11. Melanjutkan penggunaan Aplikasi setelah perubahan menunjukkan penerimaan atas kebijakan yang direvisi.</p>
+
+  <h2>11. Kontak</h2>
+  <table>
+    <tbody>
+      <tr><td>Penerbit</td><td>naruberio</td></tr>
+      <tr><td>Email kontak</td><td><a href="mailto:konpei.work@gmail.com">konpei.work@gmail.com</a></td></tr>
+      <tr><td>URL Kanonis</td><td><a href="https://naruberio.github.io/triad-journal-legal/privacy-policy-id.html">https://naruberio.github.io/triad-journal-legal/privacy-policy-id.html</a></td></tr>
+    </tbody>
+  </table>
+  <p>Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini, hubungi kami di email di atas.</p>
+</body>
+</html>
