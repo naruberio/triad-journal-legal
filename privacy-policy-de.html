@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Datenschutzerklärung — Drei Wörter Heute</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #222; }
+    h1, h2 { font-weight: 600; }
+    h2 { margin-top: 2rem; border-bottom: 1px solid #eee; padding-bottom: 0.3rem; }
+    a { color: #0366d6; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    table { border-collapse: collapse; margin: 1rem 0; width: 100%; }
+    th, td { border: 1px solid #ddd; padding: 0.5rem; text-align: left; vertical-align: top; }
+    th { background: #f6f8fa; }
+    nav { font-size: 0.9rem; margin-bottom: 1rem; }
+  </style>
+</head>
+<body>
+  <nav><a href="./">← Startseite</a></nav>
+  <h1>Datenschutzerklärung — Drei Wörter Heute</h1>
+  <p><strong>Gültig ab: 2026-05-21</strong></p>
+  <p>Diese Datenschutzerklärung beschreibt, wie „Drei Wörter Heute“ (die „App“) mit Informationen über Sie umgeht, wenn Sie sie nutzen. Die App wird von <strong>naruberio</strong> („wir“, „uns“, „unser“) herausgegeben.</p>
+
+  <h2>1. Zusammenfassung</h2>
+  <p><strong>Wir erheben keinerlei personenbezogene Daten.</strong> Alles, was Sie in der App schreiben oder einstellen, verbleibt auf Ihrem Gerät. Wir betreiben keine Server, keine Analyse, keine Werbung und keine Tracking-SDKs von Drittanbietern.</p>
+
+  <h2>2. Informationen, die wir nicht erheben</h2>
+  <p>Wir erheben, übertragen, speichern oder teilen <strong>keine</strong> der folgenden Informationen:</p>
+  <ul>
+    <li>Kontoinformationen (E-Mail, Name, Profil)</li>
+    <li>Kontakte, Standort, Kalender, Fotos, Mikrofon, Kamera</li>
+    <li>Tagebucheinträge, Wörter, Daten, Serien oder sonstige von Nutzern erstellte Inhalte</li>
+    <li>Gerätekennungen zu Werbe- oder Tracking-Zwecken</li>
+    <li>Absturzberichte oder Analyseereignisse, die an Dritte gesendet werden</li>
+  </ul>
+
+  <h2>3. Lokal auf Ihrem Gerät gespeicherte Informationen</h2>
+  <p>Die App speichert die folgenden Daten <strong>ausschließlich auf Ihrem Gerät</strong> (über lokalen iOS-Speicher wie SQLite und UserDefaults). Diese Daten verlassen Ihr Gerät nie, es sei denn, Sie exportieren oder teilen sie selbst ausdrücklich.</p>
+  <table>
+    <thead><tr><th>Daten</th><th>Zweck</th><th>Speicherung</th></tr></thead>
+    <tbody>
+      <tr><td>Ihre Drei-Wörter-Tagebucheinträge und Daten</td><td>Kernfunktion</td><td>SQLite-Datenbank auf dem Gerät</td></tr>
+      <tr><td>App-Einstellungen (Design, Sprache, Sperreinstellungen)</td><td>App-Konfiguration</td><td>UserDefaults auf dem Gerät</td></tr>
+      <tr><td>Serienzähler und Meilensteine</td><td>App-Funktion</td><td>SQLite auf dem Gerät</td></tr>
+      <tr><td>Kaufstatus (Unterstützer-Abzeichen)</td><td>In-App-Kauf lokal abbilden</td><td>UserDefaults auf dem Gerät</td></tr>
+    </tbody>
+  </table>
+  <p>Wenn Sie die App deinstallieren, werden all diese Daten von iOS gelöscht.</p>
+
+  <h2>4. Apple App Store und In-App-Käufe</h2>
+  <p>In-App-Käufe (der optionale „Unterstützer“-Kauf) werden von <strong>Apple Inc.</strong> über den App Store abgewickelt. Wir erhalten von Apple weder Ihren Namen, Ihre E-Mail-Adresse, Ihre Zahlungskarte noch sonstige personenbezogene Daten — wir erhalten lediglich eine signierte Quittung, die bestätigt, dass ein Kauf stattgefunden hat.</p>
+  <p>Apples Umgang mit Ihren Kaufdaten unterliegt der <a href="https://www.apple.com/legal/privacy/">Datenschutzerklärung von Apple</a>.</p>
+
+  <h2>5. Datenschutz für Kinder</h2>
+  <p>Die App ist mit 4+ eingestuft und für alle Altersgruppen geeignet. Da wir keine personenbezogenen Daten erheben, erhebt die App wissentlich keine Informationen von Kindern unter 13 Jahren oder unterhalb einer anderen Altersgrenze in irgendeiner Rechtsordnung.</p>
+
+  <h2>6. Berechtigungen</h2>
+  <p>Die App kann die folgenden iOS-Berechtigungen nur dann anfordern, wenn Sie die entsprechende Funktion aktivieren:</p>
+  <table>
+    <thead><tr><th>Berechtigung</th><th>Warum sie angefordert wird</th></tr></thead>
+    <tbody>
+      <tr><td>Face ID / Touch ID (<code>NSFaceIDUsageDescription</code>)</td><td>Optionale App-Sperre — wird nur lokal auf Ihrem Gerät verwendet</td></tr>
+    </tbody>
+  </table>
+  <p>Die Tracking-Berechtigung (App Tracking Transparency) wird <strong>niemals</strong> angefordert, da die App Nutzer nicht verfolgt.</p>
+
+  <h2>7. Privacy Manifest</h2>
+  <p>Die App wird mit einem Apple Privacy Manifest ausgeliefert, das Folgendes erklärt:</p>
+  <ul>
+    <li><strong>Tracking</strong>: Keines</li>
+    <li><strong>Tracking-Domains</strong>: Keine</li>
+    <li><strong>Erfasste Datentypen</strong>: Keine</li>
+    <li><strong>Verwendete APIs mit erforderlichem Grund</strong>: <code>UserDefaults (CA92.1)</code> und <code>FileTimestamp (C617.1)</code> — beide werden ausschließlich für die lokale App-Funktion auf dem Gerät verwendet</li>
+  </ul>
+
+  <h2>8. Ihre Rechte</h2>
+  <p>Da wir keine personenbezogenen Daten erheben, gibt es auf unserer Seite nichts, worauf zugegriffen, was korrigiert, übertragen oder gelöscht werden könnte. Um alle von der App gespeicherten Daten zu löschen, deinstallieren Sie sie von Ihrem Gerät.</p>
+  <p>Für Nutzer in der EU (DSGVO), im Vereinigten Königreich, in Kalifornien (CCPA/CPRA), in Brasilien (LGPD) oder unter anderen Datenschutzregimen gilt: Die App handelt nicht als Verantwortlicher oder Auftragsverarbeiter Ihrer personenbezogenen Daten, da von uns keine erhoben werden.</p>
+
+  <h2>9. Internationale Nutzung</h2>
+  <p>Die App ist weltweit verfügbar. Da keine Daten Ihr Gerät verlassen, findet keine grenzüberschreitende Datenübermittlung statt.</p>
+
+  <h2>10. Änderungen dieser Erklärung</h2>
+  <p>Wir können diese Datenschutzerklärung aktualisieren. Wesentliche Änderungen werden durch Aktualisierung des oben genannten „Gültig ab“-Datums und durch Veröffentlichung der überarbeiteten Erklärung unter der in Abschnitt 11 angegebenen URL kenntlich gemacht. Die fortgesetzte Nutzung der App nach einer Änderung gilt als Annahme der überarbeiteten Erklärung.</p>
+
+  <h2>11. Kontakt</h2>
+  <table>
+    <tbody>
+      <tr><td>Herausgeber</td><td>naruberio</td></tr>
+      <tr><td>Kontakt-E-Mail</td><td><a href="mailto:konpei.work@gmail.com">konpei.work@gmail.com</a></td></tr>
+      <tr><td>Kanonische URL</td><td><a href="https://naruberio.github.io/triad-journal-legal/privacy-policy-de.html">https://naruberio.github.io/triad-journal-legal/privacy-policy-de.html</a></td></tr>
+    </tbody>
+  </table>
+  <p>Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns unter der oben genannten E-Mail-Adresse.</p>
+</body>
+</html>
